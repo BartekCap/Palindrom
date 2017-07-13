@@ -7,7 +7,7 @@ import org.junit.Test;
 import com.capgemini.palindrom.InputOutputService;
 
 public class InputOutputServiceTest {
-	//Jak przetestować metody w ktorych jest prywatny getInput?
+
 	@Test
 	public void shouldChangeBooleanIsCorrctToTrue() {
 		// given

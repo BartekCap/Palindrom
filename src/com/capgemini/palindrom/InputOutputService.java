@@ -40,7 +40,7 @@ public class InputOutputService {
 	public void validateInput(String input){
 		isCorrect=false;
 		Matcher matcher = pattern.matcher(input);
-		if(matcher.matches()){
+		if(matcher.matches()&&removeWhiteSigns(input).length()>1){
 			isCorrect=true;
 		}
 	}
