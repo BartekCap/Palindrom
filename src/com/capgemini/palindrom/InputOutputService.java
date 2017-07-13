@@ -37,7 +37,7 @@ public class InputOutputService {
 		return input;
 	}
 	
-	private void validateInput(String input){
+	public void validateInput(String input){
 		isCorrect=false;
 		Matcher matcher = pattern.matcher(input);
 		if(matcher.matches()){
